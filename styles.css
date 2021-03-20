@@ -47,9 +47,30 @@ html, body {
     margin-left: auto;  
     margin-right: auto; 
     margin-top: 50px;
+
     width: 100%;
     max-width: 50%;
     height: auto;
     padding: 20px;
     border: 2px solid black;
+}
+
+button {  
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 300px;
+    display: block;
+    background-color: #8f97af;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 15px 32px;
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+  
+   
+
 }
