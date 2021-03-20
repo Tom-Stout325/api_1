@@ -3,10 +3,7 @@
 
     let shutter = document.querySelector('camera');
     let button = document.createElement('button');
-   
-   
-   
-        
+
      function takePic()  {
         fetch(baseUrl)
              .then (res => res.json())
@@ -26,7 +23,6 @@
     function refresh() {
         let img = document.getElementById('image')
         img.src=("https://picsum.photos/916/610?random=7")
-  
      }
 
      button.addEventListener("click", refresh)
